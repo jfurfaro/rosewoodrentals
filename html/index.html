@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rosewood Rentals</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather">
+        <style>
+            body {
+                background: url('background.jpg');
+                font: 100% 'Merriweather', Georgia, serif;
+                color: #2e2e2e;
+            }
+            
+            p {
+                font-size: 1.5em; /* 24/16 */
+                line-height: 1.8em;
+            }
+            
+            p em {
+                margin: 0;
+                font-size: 0.875em; /* 14/16 */
+                font-style: italic;    
+            }
+            
+            p:first-child:last-child {
+                margin-bottom: 0;
+            }
+            
+            .container {
+                max-width: 60em; /* 960/16 */
+                padding: 0 1.25em; /* 20/16 */
+                margin: 0 auto;
+            }
+            
+            header {
+                padding: 0.9375em 0; /* 15/16 */
+                margin-bottom: 1.875em; /* 30/16 */
+                overflow: hidden;
+            }
+            
+            header img {
+                display: block;
+                float: left;
+                width: 12.5em; /* 200/16 */
+            }
+            
+            header p {
+                float: right;
+                margin-top: 1.25em; /* 20/16 */
+            }
+            
+            h1 {
+                font-size: 2.25em; /* 36/16 */
+            }
+            
+            #images img {
+                max-width: 100%;
+                display: block;
+                margin-bottom: 1.5625em; /* 25/16 */
+            }
+            
+            footer {
+                padding: 0.625em 0; /* 10/16 */
+            }
+            
+            footer p {
+                text-align: center;
+                font-size: 0.875em; /* 14/16 */
+            }
+            
+            @media (max-width: 480px) {
+                p {
+                    font-size: 1em; /* 16/16 */
+                }
+                
+                header img {
+                    float: none;
+                    margin: 0 auto 20px;
+                }
+                
+                header p {
+                    margin-top: 0;
+                    float: none;
+                    text-align: center;
+                }
+                
+                h1 {
+                    font-size: 1.375em; /* 22/16 */
+                }
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="container">
+            <header>
+                <img src="logo.png" alt="Rosewood Rentals">
+                <p>wurtsrepair@cox.net</p>
+            </header>
+            
+            <h1>Wurtsboro Village Duplexes</h1>
+            <p>
+                Clean ranch style 2 and 3 bedroom units. Quiet, child friendly, starting at $985 per month with no fees! <em>*credit check required</em>
+                
+            </p>
+            
+            <div id="images">
+                <img src="photo1.jpg">
+                <img src="photo2.jpg">
+                <img src="photo3.jpg">
+                <img src="photo4.jpg">
+            </div>
+            
+            <footer>
+                <p>&copy; 2016 Rosewood Rentals</p>
+            </footer>
+        </div>
+        
+    </body>
+</html>
